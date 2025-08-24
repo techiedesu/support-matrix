@@ -50,8 +50,8 @@ sudo fastboot devices
 sudo fastboot flash ram u-boot-with-spl-lpi4a-16g-main.bin
 sudo fastboot reboot
 sudo fastboot flash uboot u-boot-with-spl-lpi4a-16g-main.bin
-sudo fastboot flash boot boot-lpi4a-20250526_182059.ext4.zst
-sudo fastboot flash root root-lpi4a-20250526_182059.ext4.zst
+sudo fastboot flash boot boot-lpi4a-20250526_182059.ext4
+sudo fastboot flash root root-lpi4a-20250526_182059.ext4
 ```
 
 ### Logging into the System
